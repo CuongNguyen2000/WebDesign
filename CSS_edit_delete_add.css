@@ -1,0 +1,38 @@
+.tb1{
+	font-family: "Trebuchet MS";
+  	border-collapse: collapse;
+  	width: 100%;
+}
+.tb1 th, .tb1 td {
+	border: 1px solid #ddd;
+  	padding: 8px;
+}
+.tb1 th{
+	text-align: right;
+	width: 120px;
+}
+
+.tb1 .edit{
+	text-align: left;
+	font-size: 24px;
+	padding-top: 12px;
+  	padding-bottom: 12px;
+}
+
+.btn{
+	background: #4EAB49;
+	color: white;
+	border: 0px;
+	padding: 10px 30px;
+	display: block;
+	margin: 0px auto;
+	margin-top: 15px;
+	width: auto;
+	transition: all .5s;
+	border-radius: 10px;
+}
+
+.btn:hover, .btn:active{
+	background: #3AA9CD;
+	cursor: pointer;
+}
